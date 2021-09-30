@@ -1,0 +1,11 @@
+beam:
+  active:
+    runner: Flink
+file:
+  input:
+    dir: ./src/main/resources/input/test.txt
+  output:
+    dir: ./src/main/resources/output/
+
+aa:
+  bb: abc

@@ -1,0 +1,12 @@
+beam:
+  active:
+    runner: DataflowRunner
+file:
+  input:
+    dir: gs://
+  output:
+    dir: gs://
+
+
+
+

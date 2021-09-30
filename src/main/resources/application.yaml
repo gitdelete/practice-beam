@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILE_ACTIVE:local}
+
+direct-runner:
+  parallelism:
+
+
+flink-runner:
+  parallelism:
+
+server:
+  port: 8088
+
+management:
+  endpoint:
+    health.show-details: always
+
+
+
+
